@@ -1,2 +1,2 @@
-# APIs
-API Designing and documentation 
+# DEV
+Platform devlopment, collaboration & project management
