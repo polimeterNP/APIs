@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const HomeLink = () => {
+const ProfileLink = () => {
   return (
     <div>
       <ul>
         <li>
-          <NavLink to="/" exact activeStyle={{ color: "red" }}>
-            Home
+          <NavLink to="/profile" exact activeStyle={{ color: "red" }}>
+            Profile
           </NavLink>
         </li>
       </ul>
@@ -15,4 +15,4 @@ const HomeLink = () => {
   );
 };
 
-export default HomeLink;
+export default ProfileLink;

@@ -1,22 +1,21 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./Components/Layout/Navbar";
-import { BrowserRouter } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
+import Header from "./Components/Layout/Header";
+import Home from "./Components/Layout/Home";
+import Profile from "./Components/Layout/Profile";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <div className="Text">
-          <pre>
-            Everyone has a purpose in life, perhaps yours is making
-            PolimeterNP.org live.
-          </pre>
-          -Unknown.
-        </div>
-      </div>
-    </BrowserRouter>
+    <div className="App">
+      <Header />
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/profile" component={Profile} />
+      </Switch>
+    </div>
   );
 }
 
