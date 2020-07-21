@@ -1,0 +1,60 @@
+.row-generalInfo {
+   margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  height: 25%;
+  background-color: white;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.container-style{
+  height: 1000px;
+  color: black;
+}
+
+.electoral-history{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.display-path{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.row-display-path{
+  height: 5%;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.row-electoral-history{
+  height: 35%;
+    margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.row-commitment{
+  height: 35%;
+    margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.rows-in-col {
+  height: 21%;
+}
+
+
+
+

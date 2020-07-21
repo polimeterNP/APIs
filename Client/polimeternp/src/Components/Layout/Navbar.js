@@ -3,6 +3,7 @@ import HomeLink from "./HomeLink";
 import { withRouter } from "react-router-dom";
 import ProfileLink from "./profileLink";
 
+
 class Navbar extends React.Component {
   handClickHome = () => {
     this.props.history.push("/");
@@ -14,14 +15,17 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="nav-wrapper grey darken-3">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
-          <ul>
-            <li>
-              <HomeLink onClick={this.handClickHome} />
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <HomeLink className="nav-link" onClick={this.handClickHome} />
             </li>
-            <li>
-              <ProfileLink onClick={this.handClickProfile} />
+            <li className="nav-item active">
+              <ProfileLink
+                className="nav-link"
+                onClick={this.handClickProfile}
+              />
             </li>
           </ul>
         </div>
