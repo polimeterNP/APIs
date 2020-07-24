@@ -1,0 +1,28 @@
+.parent {
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+
+.image1 {
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  border: 0px black;
+  z-index: 1;
+  width: 15%;
+  height: 35%%;
+}
+.image2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  opacity: 0.8
+
+}

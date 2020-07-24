@@ -1,0 +1,9 @@
+//Types of action
+
+const Types = {
+  FETCH_POSTS_FAILURE: "FETCH_POSTS_FAILURE",
+  FETCH_POSTS_SUCCESS: "FETCH_POSTS_SUCCESS",
+  FETCH_POSTS_DATA: "FETCH_POSTS_DATA",
+};
+
+export default Types;
