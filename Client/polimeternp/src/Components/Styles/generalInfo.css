@@ -1,0 +1,29 @@
+
+
+.row-info {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dl{
+    margin-bottom: 0px;
+}
+.dt .dd{
+    font-weight: 500;
+    font-family: unset;
+    font-size: smaller;
+    line-height: normal;
+
+}
+
+
+.body{
+     font-weight: 500;
+    font-style: normal;
+    font-family: unset;
+    font-size: smaller;
+    line-height: normal;
+}
+
+
+
