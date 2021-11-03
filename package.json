@@ -27,7 +27,7 @@
     "mongoose": "^5.9.20",
     "mongoose-float": "^1.0.4",
     "shortid": "^2.2.15",
-    "validator": "^13.1.1",
+    "validator": "^13.7.0",
     "xss-clean": "^0.1.1"
   },
   "engines": {
